@@ -23,7 +23,6 @@ public class ParentingPartnering {
 			  if (sortedIntervals[pointer][0] >= currentTask.get('J')){
 				  currentTask.remove('J');  
 			  }
-			  
 		  }
 		
 		  if(!currentTask.containsKey('C')) {
@@ -66,8 +65,8 @@ public class ParentingPartnering {
 		return parentSchedule;
 	}
     
-    public static void sortByStartTime(int arr[][]) 
-    { 
+	public static void sortByStartTime(int arr[][]) 
+	{ 
 		Arrays.sort(arr, new Comparator<int[]>() { 
 			public int compare(final int[] entry1, final int[] entry2) { 
 				if (entry1[0] > entry2[0]) 
@@ -76,7 +75,7 @@ public class ParentingPartnering {
 					return -1; 
 			} 
 		});
-    } 
+	} 
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
