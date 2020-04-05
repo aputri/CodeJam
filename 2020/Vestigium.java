@@ -53,7 +53,7 @@ public class Vestigium {
 			int[][] matrix = new int[n][n];
 			for(int j=0; j<n; j++) {
 				for(int k=0; k<n; k++) {
-				matrix[j][k] = in.nextInt();
+					matrix[j][k] = in.nextInt();
 				}
 			}
 			
